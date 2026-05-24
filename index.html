@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV - Ngụy Cao Quốc Tuấn</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+    :root {
+      color-scheme: light;
+    }
+
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f6f8;
+      color: #1f2937;
+    }
+
+    .section-title::after {
+      content: "";
+      display: block;
+      width: 72px;
+      height: 3px;
+      background: #0e7490;
+      margin-top: 8px;
+      border-radius: 999px;
+    }
+
+    .timeline-dot {
+      box-shadow: 0 0 0 4px rgba(14, 116, 144, 0.12);
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(18px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+
+    .reveal.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .skill-fill {
+      width: 0;
+      transition: width 1.1s ease;
+    }
+  </style>
+</head>
+<body>
+  <main class="min-h-screen py-10 px-4">
+    <section class="max-w-5xl mx-auto bg-white shadow-xl shadow-slate-200/70 border border-slate-200 overflow-hidden">
+      <header class="bg-gradient-to-r from-cyan-800 to-cyan-600 text-white p-8 md:p-10">
+        <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
+          <img
+            src="Tuan.jpg"
+            alt="Ảnh đại diện Ngụy Cao Quốc Tuấn"
+            class="w-40 h-40 object-cover rounded-full border-4 border-white/90"
+          />
+          <div class="text-center md:text-left">
+            <h1 class="text-3xl md:text-4xl font-semibold tracking-wide">Ngụy Cao Quốc Tuấn</h1>
+            <p class="mt-2 text-cyan-100 text-xl">Kỹ sư xây dựng</p>
+            <div class="mt-5 grid sm:grid-cols-2 gap-x-8 gap-y-2 text-sm md:text-base text-cyan-50">
+              <p><span class="font-semibold">Ngày sinh:</span> 02/07/1995</p>
+              <p><span class="font-semibold">Giới tính:</span> Nam</p>
+              <p><span class="font-semibold">Điện thoại:</span> 0888699660</p>
+              <p><span class="font-semibold">Email:</span> tuannguycq@gmail.com</p>
+              <p><span class="font-semibold">Địa chỉ:</span> Xã Đầm Dơi, tỉnh Cà Mau</p>
+              <p><span class="font-semibold">Hôn nhân:</span> Độc thân</p>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="p-7 md:p-10 space-y-12">
+        <section class="reveal">
+          <h2 class="section-title text-2xl font-semibold text-slate-900">Thông tin hồ sơ</h2>
+          <div class="mt-6 grid md:grid-cols-2 gap-x-10 gap-y-4 text-[15px]">
+            <p><span class="font-semibold">Mức lương mong muốn:</span> Thỏa thuận</p>
+            <p><span class="font-semibold">Cấp bậc mong muốn:</span> Nhân viên</p>
+            <p><span class="font-semibold">Số năm kinh nghiệm:</span> 5 năm</p>
+            <p><span class="font-semibold">Trình độ học vấn:</span> Đại học</p>
+            <p><span class="font-semibold">Ngành nghề:</span> Xây dựng</p>
+            <p><span class="font-semibold">Nơi làm việc:</span> Cần Thơ, Bạc Liêu, Cà Mau</p>
+          </div>
+        </section>
+
+        <section class="reveal">
+          <h2 class="section-title text-2xl font-semibold text-slate-900">Học vấn</h2>
+          <article class="mt-6 pl-5 border-l-2 border-cyan-200 relative">
+            <span class="timeline-dot absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-cyan-700"></span>
+            <p class="text-sm text-cyan-700 font-semibold">08/2013 - 11/2017</p>
+            <h3 class="text-lg font-semibold mt-1">Bằng tốt nghiệp đại học</h3>
+            <p class="mt-1"><span class="font-semibold">Đơn vị đào tạo:</span> Đại học Cần Thơ</p>
+            <p><span class="font-semibold">Xếp loại:</span> Khá</p>
+          </article>
+        </section>
+
+        <section class="reveal">
+          <h2 class="section-title text-2xl font-semibold text-slate-900">Kinh nghiệm làm việc</h2>
+          <div class="mt-6 space-y-8">
+            <article class="pl-5 border-l-2 border-cyan-200 relative">
+              <span class="timeline-dot absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-cyan-700"></span>
+              <p class="text-sm text-cyan-700 font-semibold">07/2023 - Hiện tại</p>
+              <h3 class="text-lg font-semibold mt-1">Chuyên viên</h3>
+              <p class="mt-1"><span class="font-semibold">Công ty:</span> Công ty Phát triển hạ tầng khu công nghiệp Hậu Giang</p>
+              <p class="mt-1">Đơn vị sự nghiệp nhà nước, phụ trách công việc vai trò chủ đầu tư các công trình hạ tầng khu công nghiệp.</p>
+            </article>
+
+            <article class="pl-5 border-l-2 border-cyan-200 relative">
+              <span class="timeline-dot absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-cyan-700"></span>
+              <p class="text-sm text-cyan-700 font-semibold">06/2022 - Hiện tại</p>
+              <h3 class="text-lg font-semibold mt-1">Cán bộ kỹ thuật</h3>
+              <p class="mt-1"><span class="font-semibold">Công ty:</span> Công ty TNHH Dịch Vụ Kỹ Thuật Hiệp Thành</p>
+            </article>
+
+            <article class="pl-5 border-l-2 border-cyan-200 relative">
+              <span class="timeline-dot absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-cyan-700"></span>
+              <p class="text-sm text-cyan-700 font-semibold">10/2018 - 04/2022</p>
+              <h3 class="text-lg font-semibold mt-1">Cán bộ kỹ thuật</h3>
+              <p class="mt-1"><span class="font-semibold">Công ty:</span> Công ty cổ phần sản xuất công nghiệp Xây Lắp 3</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li>Phụ trách triển khai bản vẽ, bóc tách vật tư.</li>
+                <li>Lên kế hoạch, khối lượng báo cáo CĐT, TVGS và ban lãnh đạo.</li>
+                <li>Kiêm nhiệm vị trí an toàn lao động.</li>
+              </ul>
+            </article>
+
+            <article class="pl-5 border-l-2 border-cyan-200 relative">
+              <span class="timeline-dot absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-cyan-700"></span>
+              <p class="text-sm text-cyan-700 font-semibold">12/2017 - 03/2018</p>
+              <h3 class="text-lg font-semibold mt-1">Cán bộ kỹ thuật</h3>
+              <p class="mt-1"><span class="font-semibold">Công ty:</span> Công ty TNHH xây dựng Thiên Phát</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="reveal">
+          <h2 class="section-title text-2xl font-semibold text-slate-900">Kỹ năng</h2>
+          <div class="mt-6 space-y-4" id="soft-skills">
+            <div data-level="80">
+              <div class="flex justify-between text-sm mb-1"><span>Lãnh đạo</span><span>4/5</span></div>
+              <div class="h-2 bg-slate-200 overflow-hidden"><div class="skill-fill h-full bg-cyan-700"></div></div>
+            </div>
+            <div data-level="80">
+              <div class="flex justify-between text-sm mb-1"><span>Giải quyết vấn đề</span><span>4/5</span></div>
+              <div class="h-2 bg-slate-200 overflow-hidden"><div class="skill-fill h-full bg-cyan-700"></div></div>
+            </div>
+            <div data-level="80">
+              <div class="flex justify-between text-sm mb-1"><span>Giao tiếp và tạo lập quan hệ</span><span>4/5</span></div>
+              <div class="h-2 bg-slate-200 overflow-hidden"><div class="skill-fill h-full bg-cyan-700"></div></div>
+            </div>
+            <div data-level="80">
+              <div class="flex justify-between text-sm mb-1"><span>Quản lý bản thân</span><span>4/5</span></div>
+              <div class="h-2 bg-slate-200 overflow-hidden"><div class="skill-fill h-full bg-cyan-700"></div></div>
+            </div>
+            <div data-level="80">
+              <div class="flex justify-between text-sm mb-1"><span>Tổ chức công việc hiệu quả</span><span>4/5</span></div>
+              <div class="h-2 bg-slate-200 overflow-hidden"><div class="skill-fill h-full bg-cyan-700"></div></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="reveal">
+          <h2 class="section-title text-2xl font-semibold text-slate-900">Trình độ tin học</h2>
+          <div class="mt-6 space-y-4" id="it-skills">
+            <div data-level="85">
+              <div class="flex justify-between text-sm mb-1"><span>MS Word</span><span>4/5</span></div>
+              <div class="h-2 bg-slate-200 overflow-hidden"><div class="skill-fill h-full bg-cyan-700"></div></div>
+            </div>
+            <div data-level="85">
+              <div class="flex justify-between text-sm mb-1"><span>MS Excel</span><span>4/5</span></div>
+              <div class="h-2 bg-slate-200 overflow-hidden"><div class="skill-fill h-full bg-cyan-700"></div></div>
+            </div>
+            <div data-level="85">
+              <div class="flex justify-between text-sm mb-1"><span>MS PowerPoint</span><span>4/5</span></div>
+              <div class="h-2 bg-slate-200 overflow-hidden"><div class="skill-fill h-full bg-cyan-700"></div></div>
+            </div>
+            <div data-level="45">
+              <div class="flex justify-between text-sm mb-1"><span>Photoshop</span><span>2/5</span></div>
+              <div class="h-2 bg-slate-200 overflow-hidden"><div class="skill-fill h-full bg-cyan-700"></div></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="reveal">
+          <h2 class="section-title text-2xl font-semibold text-slate-900">Trình độ ngoại ngữ</h2>
+          <div class="mt-6 overflow-x-auto">
+            <table class="w-full text-left border border-slate-200">
+              <thead class="bg-slate-100">
+                <tr>
+                  <th class="py-3 px-4 font-semibold">Ngoại ngữ</th>
+                  <th class="py-3 px-4 font-semibold">Nghe</th>
+                  <th class="py-3 px-4 font-semibold">Nói</th>
+                  <th class="py-3 px-4 font-semibold">Đọc</th>
+                  <th class="py-3 px-4 font-semibold">Viết</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="border-t border-slate-200">
+                  <td class="py-3 px-4">Tiếng Anh</td>
+                  <td class="py-3 px-4">Trung bình</td>
+                  <td class="py-3 px-4">Trung bình</td>
+                  <td class="py-3 px-4">Trung bình</td>
+                  <td class="py-3 px-4">Trung bình</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const revealObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+          }
+        });
+      },
+      { threshold: 0.15 }
+    );
+
+    document.querySelectorAll(".reveal").forEach((section) => {
+      revealObserver.observe(section);
+    });
+
+    // Animate skill bars once they are visible.
+    const skillObserver = new IntersectionObserver(
+      (entries, observer) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          const level = entry.target.dataset.level;
+          const fill = entry.target.querySelector(".skill-fill");
+          if (fill) fill.style.width = `${level}%`;
+          observer.unobserve(entry.target);
+        });
+      },
+      { threshold: 0.4 }
+    );
+
+    document.querySelectorAll("#soft-skills > div, #it-skills > div").forEach((item) => {
+      skillObserver.observe(item);
+    });
+  </script>
+</body>
+</html>
